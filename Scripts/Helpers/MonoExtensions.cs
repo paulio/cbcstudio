@@ -15,11 +15,6 @@
                 var type = typeof(T);
                 Debug.LogError($"{nullMessage}: Was expecting {type.Name} in {component.name}", component);
             }
-            else
-            {
-                Debug.Log("It's a null really???" + result.ToString());
-            }
-
 
             return result;
         }
